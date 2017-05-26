@@ -1,4 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env bash
+#
+# Author: A. Schwarz
+# Usage: git sp [-a] <message>
+#
+# "Simple push": commit with message and push. Use -a flag to add changed files
+#    to commit. 
+#
+# See https://github.com/Schwarzy1/git-sp for more information.
+#
+
 
 usage(){
 	echo "usage: git sp [-a] <message>
